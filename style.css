@@ -1,0 +1,62 @@
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+#landing{
+	height: 80vh;
+	/*vh=viewport height*/
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: #ede0d4;
+}
+
+#gallery{
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 6px;
+	/*border-radius = edge of the container*/
+}
+
+ul{
+	list-style: : none;
+	padding: 0;
+}
+
+h2{
+	color: #7f5539 ;
+}
+
+.tools{
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #451A00;
+	/*border design=dotted, dashed*/
+	margin: 20px;
+	width: 75%;
+	color: #9c6644;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	background-color: #9c6644;
+}
